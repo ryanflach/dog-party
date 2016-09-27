@@ -54,7 +54,7 @@ nav li:hover {
   margin-bottom: 25px;
 }
 
-#hero a {
+.btn {
   background: white;
   border: 5px solid #3F8DA7;
   color: #3F8DA7;
@@ -62,8 +62,28 @@ nav li:hover {
   text-decoration: none;
 }
 
-#hero a:hover {
+.btn:hover {
   padding: 5px 10px;
   background: #3F8DA7;
   color: white;
+}
+
+.three-col {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.three-col img {
+  border-radius: 50%;
+  border: 3px solid #3F8DA7;
+  height: 200px;
+  width: 200px;
+  margin: 25px 0;
+}
+
+.three-col p {
+  margin-bottom: 40px;
 }
